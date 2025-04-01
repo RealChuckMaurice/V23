@@ -1,7 +1,7 @@
 [build]
-  command = "npm run export"
-  publish = "out"
+command = "npm run build"
+publish = "out"
 
 [build.environment]
-  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
